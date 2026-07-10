@@ -1,0 +1,34 @@
+# === Чувствительные файлы ===
+.env
+.env.local
+.env.*.local
+
+# === Логи ===
+*.log
+logs/
+error_log
+
+# === Кэш ===
+cache/
+tmp/
+*.tmp
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Composer ===
+vendor/
+composer.lock
+
+# === Тестовые файлы ===
+test_*.php
+*_test.php
+*.sql
+*.bak
+
+# === Системные ===
+.DS_Store
+Thumbs.db

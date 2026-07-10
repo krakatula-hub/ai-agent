@@ -1,0 +1,27 @@
+# === ROBOTS.TXT ДЛЯ AI AGENT ===
+
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных страниц
+Disallow: /api/
+Disallow: /includes/
+Disallow: /vendor/
+Disallow: /assets/
+Disallow: /admin.php
+Disallow: /blog_admin.php
+Disallow: /cases_admin.php
+Disallow: /admin_ads.php
+
+# Запрещаем индексацию страниц с параметрами
+Disallow: /*?*
+Disallow: /*.php?*
+
+# Главная карта сайта
+Sitemap: https://ai.nkvopros.ru/sitemap.xml
+
+# Хост
+Host: https://ai.nkvopros.ru
+
+# Задержка между запросами (для больших сайтов)
+Crawl-delay: 2
